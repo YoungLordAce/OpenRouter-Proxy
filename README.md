@@ -22,7 +22,7 @@ Install and set it up, enable WSL if needed.
 ### Step 3: 
 
 Navigate to the folder you just downloaded and create a .env file.
-In the .env file, make sure your OpenRouter key is pasted inside. If you don't have a key, make an OpenRouter account and create one.
+In the .env file, make sure your OpenRouter key is pasted inside. If you don't have a key, make an OpenRouter account and create one. Keep note of your key as you will need it again later.
 It should look like this: 
 ```
 OPENROUTER_API_KEY={your key goes here}
