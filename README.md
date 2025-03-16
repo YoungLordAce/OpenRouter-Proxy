@@ -17,7 +17,7 @@ git clone https://github.com/YoungLordAce/OpenRouter-Proxy.git
 
 [Download DockerDesktop (Windows)](https://app.docker.com/)
 
-Install and set it up, enable WSL if needed. 
+Install and set it up, enable WSL if needed. NOTE: If you're on Linux, you can skip this step entirely.
 
 ### Step 3: 
 
@@ -31,7 +31,7 @@ Make sure the .env file is not a .txt file or it won't work. It must be .env and
 
 ### Step 4: 
 
-On Docker Desktop, open the terminal and navigate to the repo you just cloned.
+On Docker Desktop/Linux, open the terminal and navigate to the repo you just cloned.
 
 Run this command:
 ```
@@ -41,7 +41,8 @@ This will build and start the containers, it might take a while so be patient.
 
 ### Step 5: 
 
-Once the containers are built and running, click on Containers, stack name and you'll see the logs. A cloudflare link will have been generated, it will look something like this:
+Once the containers are built and running, click on Containers, stack name and you'll see the logs. If you're on Linux use the command: ```docker logs cloudflared```. 
+A cloudflare link will have been generated, it will look something like this:
 ```https://biological-emphasis-bidder-highways.trycloudflare.com```
 
 This is a temporary link and it will expire once you stop the container for any reason, every time you restart the container you will have to copy the newly generated link again.
