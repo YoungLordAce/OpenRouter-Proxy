@@ -1,5 +1,5 @@
 {
-    "default_model": "cognitivecomputations/dolphin3.0-mistral-24b:free",
+    "default_model": "google/gemma-3-4b-it:free",
     "models": [],
     "min_p": 0.17,
     "top_p": 0.92,
