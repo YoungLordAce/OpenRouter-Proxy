@@ -48,7 +48,7 @@ docker logs cloudflared
 A cloudflare link will have been generated which will show in the logs, it will look something like this:
 ```https://biological-emphasis-bidder-highways.trycloudflare.com```
 
-Copy that link and paste it on JanitorAI under Proxy URL, making sure to add ```/v1/chat/completions``` at the end or the requests will fail. 
+Copy that link and paste it in **JanitorAI** under **Proxy URL**, making sure to add ```/v1/chat/completions``` at the end or the requests will fail. 
 
 Here's an example: ```https://biological-emphasis-bidder-highways.trycloudflare.com/v1/chat/completions```
 
@@ -56,7 +56,7 @@ Keep in mind that the Cloudflare links are temporary and will expire once you st
 
 ### Step 5: 
 
-Paste your OpenRouter Key on JanitorAI under API Key.
+Paste your OpenRouter Key on **JanitorAI** under **API Key**.
 
 Done.
 
