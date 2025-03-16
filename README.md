@@ -35,7 +35,7 @@ On Docker Desktop/Linux, open the terminal and navigate to the repo you just clo
 
 Run this command:
 ```
-docker-compose up -d
+docker compose up -d
 ``` 
 This will build and start the containers, it might take a while so be patient.
 
