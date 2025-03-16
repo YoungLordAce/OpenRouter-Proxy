@@ -48,7 +48,7 @@ docker logs cloudflared
 A cloudflare link will have been generated which will show in the logs, it will look something like this:
 ```https://biological-emphasis-bidder-highways.trycloudflare.com```
 
-Copy that link and paste it on JanitorAI under Proxy URL, making sure to add /v1/chat/completions at the end or the requests will fail. For example: ```https://biological-emphasis-bidder-highways.trycloudflare.com/v1/chat/completions```
+Copy that link and paste it on JanitorAI under Proxy URL, making sure to add ```/v1/chat/completions``` at the end or the requests will fail. For example: ```https://biological-emphasis-bidder-highways.trycloudflare.com/v1/chat/completions```
 This is a temporary link and it will expire once you stop the container for any reason, every time you restart the container you will need to do this step again.
 
 ### Step 5: 
