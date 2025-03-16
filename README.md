@@ -6,22 +6,30 @@
   
 ## How to use it?
 
+### Step 1:
+
 First things first, clone the repository.
 ```
 git clone https://github.com/YoungLordAce/OpenRouter-Proxy.git
 ```
 
-### Method 1 - Docker Desktop (Windows)
+### Step 2:
 
-[Download DockerDesktop](https://app.docker.com/)
+[Download DockerDesktop (Windows)](https://app.docker.com/)
 
-Install and set it up, enable WSL if needed.
+Install and set it up, enable WSL if needed. 
 
+### Step 3: 
 
-Before you continue,
 Navigate to the folder you just downloaded and create a .env file.
 In the .env file, make sure your OpenRouter key is pasted inside. If you don't have a key, make an OpenRouter account and create one.
-It should look like this: ```OPENROUTER_API_KEY={your key goes here}```
+It should look like this: 
+```
+OPENROUTER_API_KEY={your key goes here}
+```
+
+
+### Step 4: 
 
 On Docker Desktop, open the terminal and navigate to the repo you just cloned.
 
@@ -30,6 +38,8 @@ Run this command:
 docker-compose up -d
 ``` 
 This will build and start the containers, it might take a while so be patient.
+
+### Step 5: 
 
 Once the containers are built and running, click on Containers, stack name and you'll see the logs. A cloudflare link will have been generated, it will look something like this:
 ```https://biological-emphasis-bidder-highways.trycloudflare.com```
