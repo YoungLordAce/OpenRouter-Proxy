@@ -61,5 +61,7 @@ Done.
 ### IMPORTANT: 
 To change the AI settings, find the config.json file and edit the values there. To make changes, simply save the file.
 
-There 3 ways to change the AI model. You can list it on JanitorAI and it will prioritise that model. If there is no model listed on JanitorAI, it will either use the model in the config file or whatever model you have set as default on your OpenRouter account. If you're not sure. Just leave the model blank on both config and JanitorAI and set the default model to whatever you want on your OpenRouter account. You can find and copy model ids from here: https://openrouter.ai/models
+There 3 ways to change the AI model to use. You can list it on JanitorAI and it will prioritise that model. If there is no model listed on JanitorAI, it will either use the model in the config file or whatever model you have set as the default on your OpenRouter account. If you're not sure, tust leave the model blank on both config and JanitorAI and set the default model to whatever you want on your OpenRouter account. If you don't have credits/don't want to pay, you'll have to use a free model.
+
+You can find and copy model IDs from here: https://openrouter.ai/models
 
