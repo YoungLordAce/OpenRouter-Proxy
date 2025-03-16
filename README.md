@@ -41,17 +41,25 @@ This will build and start the containers, it might take a while so be patient.
 
 ### Step 5: 
 
-Once the containers are built and running, click on Containers, stack name and you'll see the logs. If you're on Linux use the command: ```docker logs cloudflared```. 
-A cloudflare link will have been generated, it will look something like this:
+On Docker Desktop, click on containers > openrouterproxy > and you'll see the logs. Alternatively, you can run this command on the terminal: 
+```
+docker logs cloudflared
+``` 
+A cloudflare link will have been generated which will show in the logs, it will look something like this:
 ```https://biological-emphasis-bidder-highways.trycloudflare.com```
 
-This is a temporary link and it will expire once you stop the container for any reason, every time you restart the container you will have to copy the newly generated link again.
+Copy that link and paste it on JanitorAI under Proxy URL, making sure to add /v1/chat/completions at the end or the requests will fail. For example: ```https://biological-emphasis-bidder-highways.trycloudflare.com/v1/chat/completions```
+This is a temporary link and it will expire once you stop the container for any reason, every time you restart the container you will need to do this step again.
 
-Copy that link and paste it on JanitorAI making sure to add /v1/chat/completions at the end or the requests will fail. For example: ```https://biological-emphasis-bidder-highways.trycloudflare.com/v1/chat/completions```
+### Step 5: 
 
-Paste your OpenRouter Key on JanitorAI.
+Paste your OpenRouter Key on JanitorAI under API Key.
 
 Done.
 
 
+### IMPORTANT: 
+To change the AI settings, find the config.json file and edit the values there. To make changes, simply save the file.
+
+There 3 ways to change the AI model. You can list it on JanitorAI and it will prioritise that model. If there is no model listed on JanitorAI, it will either use the model in the config file or whatever model you have set as default on your OpenRouter account. If you're not sure. Just leave the model blank on both config and JanitorAI and set the default model to whatever you want on your OpenRouter account.
 
