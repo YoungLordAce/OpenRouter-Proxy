@@ -6,6 +6,8 @@ services:
       - "5000:5000"
     env_file:
       - .env
+    volumes:
+      - ./config.json:/app/config.json  # Mount config file so changes persist
     restart: unless-stopped
 
   cloudflared:
