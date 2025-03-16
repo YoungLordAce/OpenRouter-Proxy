@@ -21,6 +21,7 @@ Install and set it up, enable WSL if needed.
 Before you continue,
 Navigate to the folder you just downloaded and create a .env file.
 In the .env file, make sure your OpenRouter key is pasted inside. If you don't have a key, make an OpenRouter account and create one.
+It should look like this: ```OPENROUTER_API_KEY={your key goes here}```
 
 On Docker Desktop, open the terminal and navigate to the repo you just cloned.
 
