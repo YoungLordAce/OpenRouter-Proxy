@@ -81,9 +81,9 @@ def chat_completions():
     data = request.json or {}
     settings = load_config()  # Reload config every request
     
-    # 🚀 Log full incoming request data
-    logging.info(f"RAW REQUEST DATA: {request.data.decode('utf-8')}")
-    logging.info(f"PARSED REQUEST DATA:\n{pprint.pformat(data)}")
+    # 🚀 Log full incoming request data (Only uncomment these for debugging purposes)
+    # logging.info(f"RAW REQUEST DATA: {request.data.decode('utf-8')}")
+    # logging.info(f"PARSED REQUEST DATA:\n{pprint.pformat(data)}")
     
     # Ensure the model is correctly applied from config.json, even if JanitorAI sends an empty string
     if "model" not in data or not data["model"].strip():  # Treat empty string as missing
