@@ -6,7 +6,7 @@
 
 ## What is it?
 
-This project allows you to host your own OpenRouter proxy on your computer/server. This is a more secure and reliable alternative to the versions on google collab as this proxy is self-hosted and you don't have to worry about things like your IP being logged. If you're even somewhat familiar with Docker, the setup will be trivial. If not, the steps are easy to follow.
+This project allows you to host your own OpenRouter proxy on your computer/server using docker containers. This is a more secure and reliable alternative to the versions on google collab as this proxy is self-hosted and you don't have to worry about things like your IP being logged. If you're even somewhat familiar with Docker, the setup will be trivial. If not, the steps are easy to follow.
 
 ## How to use it?
 
