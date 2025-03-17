@@ -3,7 +3,11 @@
 <p align="center">Self Hosted method using Docker and Cloudflare.</p>
 
 <hr>
-  
+
+## What is it?
+
+This project allows you to host your own OpenRouter proxy on your computer/server. This is a more secure and reliable alternative to the versions on google collab as this proxy is self-hosted and you don't have to worry about things like your IP being logged. If you're even somewhat familiar with Docker, the setup will be trivial. If not, the steps are easy to follow.
+
 ## How to use it?
 
 ### Step 1:
@@ -54,7 +58,7 @@ Here's an example: ```https://biological-emphasis-bidder-highways.trycloudflare.
 
 Keep in mind that the Cloudflare links are temporary and will expire once you stop the container for any reason; every time you restart the container you will need to do this step again.
 
-### Step 5: 
+### Step 6: 
 
 Paste your OpenRouter Key on **JanitorAI** under **API Key**.
 
