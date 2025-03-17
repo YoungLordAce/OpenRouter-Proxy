@@ -68,3 +68,5 @@ There 3 ways to change the AI model to use. You can list it on JanitorAI and it 
 
 You can find and copy model IDs from here: https://openrouter.ai/models
 
+
+**If you need help with anything, you can contact me on [Discord](https://discordapp.com/users/younglord)**
