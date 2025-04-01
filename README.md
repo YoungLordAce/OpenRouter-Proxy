@@ -6,7 +6,7 @@
 
 ## What is it?
 
-This project allows you to host an OpenRouter proxy on your computer/server using docker containers. This is a more secure and reliable alternative to the versions on google collab as this proxy is self-hosted and you don't have to worry about things like your IP being logged. If you're even somewhat familiar with Docker, the setup will be trivial. If not, the steps are easy to follow.
+This project allows you to host an OpenRouter proxy on your computer/server using docker containers. This is a more secure and reliable alternative to the versions on google collab as this proxy is self-hosted and you don't have to worry about things like your IP or chat history being logged. If you're even somewhat familiar with Docker, the setup will be trivial. If not, the steps are easy to follow.
 
 ## How to use it?
 
@@ -68,7 +68,7 @@ Done.
 ### IMPORTANT: 
 To change the AI settings, find the config.json file and edit the values there. To make changes, simply save the file.
 
-There 3 ways to change the AI model to use. You can list it on JanitorAI and it will prioritise that model. If there is no model listed on JanitorAI, it will use the model in the config file. If both JanitorAI and Config don't have a model listed, it will use whatever model you have set as the default on your OpenRouter account. If you're not sure, just leave the model blank on both config and JanitorAI and set the default model to whatever you want on your OpenRouter account. If you don't have credits/don't want to pay, you'll have to use a free model.
+There are 3 ways to change the AI model to use. You can list it on JanitorAI and it will prioritise that model. If there is no model listed on JanitorAI, it will use the model in the config file. If both JanitorAI and Config don't have a model listed, it will use whatever model you have set as the default on your OpenRouter account. If you're not sure, just leave the model blank on both config and JanitorAI and set the default model to whatever you want on your OpenRouter account. If you don't have credits/don't want to pay, you'll have to use a free model.
 
 You can find and copy model IDs from here: https://openrouter.ai/models
 
