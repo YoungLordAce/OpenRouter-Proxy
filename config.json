@@ -1,10 +1,10 @@
 {
     "default_model": "",
     "models": [],
-    "min_p": 0.17,
-    "top_p": 0.92,
-    "top_k": 75,
-    "repetition_penalty": 1.05,
+    "min_p": 0,
+    "top_p": 1,
+    "top_k": 0,
+    "repetition_penalty": 1,
     "frequency_penalty": 0,
     "presence_penalty": 0
 }
